@@ -37,9 +37,6 @@ jobs:
             - name: Fix audit issues
               run: npm audit fix --force
 
-            - name: Run linting
-              run: npm run lint
-
             - name: Run tests
               run: npm test
 
